@@ -1,6 +1,6 @@
 <template>
   <router-link to="/">Notes</router-link>
-  <router-link to="/stats">Statsaaasss</router-link>
+  <router-link to="/stats">Statsaaaaasss</router-link>
   <RouterView />
 </template>
 

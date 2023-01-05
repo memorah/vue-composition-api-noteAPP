@@ -2,7 +2,7 @@
   <div class="">
     <div class="wrapper">
       <input type="checkbox" />
-      test2
+      test22
       <div class="btn"></div>
       <svg>
         <use xlink:href="#shape-01" class="shape shape-01" />

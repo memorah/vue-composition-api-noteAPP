@@ -5,7 +5,7 @@
       <span></span>
       <span></span>
       <span></span>
-      Neon Btn
+      Neon
     </a>
   </div>
 </template>

@@ -3,6 +3,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import ViewNotes from "@/views/ViewNotes.vue";
 import ViewStats from "@/views/ViewStats.vue";
 import VueTesting from "@/views/VueTesting.vue";
+import VueButton2 from "@/views/VueButton2.vue";
 import App from "./App.vue";
 
 import "./assets/main.css";
@@ -25,6 +26,11 @@ const router = createRouter({
       name: "test",
       component: VueTesting,
     },
+    {
+      path: "/button2",
+      name: "button2",
+      component: VueButton2,
+    }
   ],
 });
 createApp(App).use(router).mount("#app");

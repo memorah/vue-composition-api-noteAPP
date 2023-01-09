@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <button class="custom-btn btn-1">Read More</button>
+    <button class="custom-btn btn-1">BTN</button>
   </div>
 </template>
 <style scoped>

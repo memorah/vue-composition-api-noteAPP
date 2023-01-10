@@ -5,8 +5,8 @@
   <router-link to="/button2">Button 2</router-link>
   <router-link to="/button3">Button 3</router-link>
   <router-link to="/button4">Button 4</router-link>
-  <router-link to="/button4">Button 5</router-link>
-  <router-link to="/button4">Button 6</router-link>
+  <router-link to="/button5">Button 5</router-link>
+  <router-link to="/button6">Button 6</router-link>
   <RouterView />
 </template>
 

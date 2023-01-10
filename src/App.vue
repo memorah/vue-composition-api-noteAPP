@@ -1,4 +1,5 @@
 <template>
+  <NavBar />
   <router-link to="/" class="button">Notes</router-link>
   <router-link to="/stats" class="button">Statsaaaaasss</router-link>
   <router-link to="/test">Button 1</router-link>
@@ -9,6 +10,11 @@
   <router-link to="/button6">Button 6</router-link>
   <RouterView />
 </template>
+
+<script setup>
+/* imports */
+import NavBar from "@/components/layout/NavBar.vue";
+</script>
 
 <style>
 @import "bulma/css/bulma.min.css";

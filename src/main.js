@@ -6,6 +6,7 @@ import VueTesting from "@/views/VueTesting.vue";
 import VueButton2 from "@/views/VueButton2.vue";
 import VueButton3 from "@/views/VueButton3.vue";
 import VueButton4 from "@/views/VueButton4.vue";
+import VueButton5 from "@/views/VueButton5.vue";
 import App from "./App.vue";
 
 import "./assets/main.css";
@@ -42,6 +43,11 @@ const router = createRouter({
       path: "/button4",
       name: "button4",
       component: VueButton4,
+    },
+    {
+      path: "/button5",
+      name: "button5",
+      component: VueButton5,
     }
   ],
 });

@@ -37,7 +37,7 @@ const router = createRouter({
       path: "/button3",
       name: "button3",
       component: VueButton3,
-    }
+    },
     {
       path: "/button4",
       name: "button4",

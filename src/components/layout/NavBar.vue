@@ -6,7 +6,7 @@
         <a
           role="button"
           class="navbar-burger"
-          :class="{"is-active" : showMobileNav }"
+          :class="{ 'is-active': showMobileNav }"
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
@@ -16,7 +16,11 @@
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div id="navbarBasicExample" class="navbar-menu">
+      <div
+        id="navbarBasicExample"
+        class="navbar-menu"
+        :class="{ 'is-active': showMobileNav }"
+      >
         <div class="navbar-end">
           <RouterLink to="/" class="navbar-item" active-class="is-active">
             Notes

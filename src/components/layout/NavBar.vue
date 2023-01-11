@@ -5,6 +5,7 @@
         <div class="navbar-item is-size-4 is-family-monospace">NoteBalls</div>
         <a
           role="button"
+          @click="showMobileNav = !showMobileNav"
           class="navbar-burger"
           :class="{ 'is-active': showMobileNav }"
           aria-label="menu"

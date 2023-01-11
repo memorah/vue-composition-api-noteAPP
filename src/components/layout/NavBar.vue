@@ -6,6 +6,7 @@
         <a
           role="button"
           class="navbar-burger"
+          :class="{"is-active" : showMobileNav }"
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
@@ -28,5 +29,13 @@
     </div>
   </nav>
 </template>
+
+<script setup>
+/* imports */
+import { ref } from "vue";
+
+/* mobile nav */
+const showMobileNav = ref(false);
+</script>
 
 <style></style>

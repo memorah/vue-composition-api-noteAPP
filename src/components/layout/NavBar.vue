@@ -5,7 +5,7 @@
         <div class="navbar-item is-size-4 is-family-monospace">NoteBalls</div>
         <a
           role="button"
-          @click="showMobileNav = !showMobileNav"
+          @click.prevent="showMobileNav = !showMobileNav"
           class="navbar-burger"
           :class="{ 'is-active': showMobileNav }"
           aria-label="menu"
@@ -43,4 +43,12 @@ import { ref } from "vue";
 const showMobileNav = ref(false);
 </script>
 
-<style></style>
+<style>
+@media (max-width: 1023px) {
+  .navbar-menu {
+    position: absolute;
+    left: 0;
+    width: 100%;
+  }
+}
+</style>

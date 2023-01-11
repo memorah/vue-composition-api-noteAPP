@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar is-success" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <div class="navbar-item">NoteBalls</div>
+      <div class="navbar-item is-size-4">NoteBalls</div>
       <a
         role="button"
         class="navbar-burger"

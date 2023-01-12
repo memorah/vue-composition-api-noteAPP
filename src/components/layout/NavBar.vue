@@ -27,7 +27,7 @@
             Notes
           </RouterLink>
           <RouterLink to="/stats" class="navbar-item" active-class="is-active">
-            Stats
+            Statistics
           </RouterLink>
         </div>
       </div>

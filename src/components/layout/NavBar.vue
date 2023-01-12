@@ -2,7 +2,7 @@
   <nav class="navbar is-success" role="navigation" aria-label="main navigation">
     <div class="container is-max-desktop">
       <div class="navbar-brand">
-        <div class="navbar-item is-size-4 is-family-monospace">NoteBalls</div>
+        <div class="navbar-item is-size-4 is-family-monospace">NotesApp</div>
         <a
           role="button"
           @click.prevent="showMobileNav = !showMobileNav"

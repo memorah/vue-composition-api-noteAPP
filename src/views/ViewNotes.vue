@@ -29,6 +29,7 @@
 /* imports */
 import { ref } from "vue";
 /* notes*/
+const newNote = ref("");
 const notes = ref([
   {
     id: "id1",

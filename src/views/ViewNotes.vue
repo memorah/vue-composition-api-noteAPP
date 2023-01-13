@@ -1,6 +1,6 @@
 <template>
   <div class="notes">
-    <div class="card">
+    <div v-for="i in 3" class="card mb-4">
       <div class="card-content">
         <div class="content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec

@@ -29,7 +29,7 @@
 <script setup>
 /* imports */
 import { ref } from "vue";
-import Note from "@/components/Notes/NoteComponent.vue";
+import Note from "@/components/Notes/NoTe.vue";
 /* notes*/
 const newNote = ref("");
 const newNoteRef = ref(null);

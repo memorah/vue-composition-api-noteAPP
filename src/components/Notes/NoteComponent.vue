@@ -12,6 +12,15 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+/* props */
+
+const props = defineProps({
+  note: {
+    type: Object,
+    required: true,
+  },
+});
+</script>
 
 <style></style>

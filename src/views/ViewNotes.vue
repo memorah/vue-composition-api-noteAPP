@@ -18,7 +18,7 @@
             :disabled="!newNote"
             class="button is-link has-background-success"
           >
-            Add New
+            Add Note
           </button>
         </div>
       </div>

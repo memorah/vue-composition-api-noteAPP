@@ -14,7 +14,7 @@
       <div class="field is-grouped is-grouped-right">
         <div class="control">
           <button
-            @click="storeNotes.addNote"
+            @click="addNote"
             :disabled="!newNote"
             class="button is-link has-background-success"
           >

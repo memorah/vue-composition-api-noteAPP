@@ -1,5 +1,16 @@
 <template>
   <div class="notes">
+    <AddEditNote>
+      <template #buttons>
+        <button
+          @click="addNote"
+          :disabled="!newNote"
+          class="button is-link has-background-success"
+        >
+          Add Notes
+        </button>
+      </template>
+    </AddEditNote>
     <div class="div card has-background-succes p-4 mb-4">
       <div class="field">
         <div class="control">
@@ -30,6 +41,7 @@
 /* imports */
 import { ref } from "vue";
 import Note from "@/components/Notes/NoTe.vue";
+import AddEditNote from "@/components/Notes/AddEditNote.vue";
 import { useStoreNotes } from "@/stores/storeNotes";
 /*store*/
 const storeNotes = useStoreNotes();

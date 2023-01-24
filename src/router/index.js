@@ -12,7 +12,7 @@ const router = createRouter({
       component: ViewNotes,
     },
     {
-      path: "/editnNte/:id",
+      path: "/editNote/:id",
       name: "edit-note",
       component: ViewEditNote,
     },

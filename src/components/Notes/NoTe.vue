@@ -20,7 +20,7 @@
         @click.prevent="storeNotes.deleteNote(note.id)"
         href="#"
         class="card-footer-item"
-        >Delete</a
+        >Delete now</a
       >
     </footer>
   </div>

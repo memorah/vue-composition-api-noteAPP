@@ -3,10 +3,11 @@
     <div class="field">
       <div class="control">
         <textarea
+          v-model="modelValue"
           class="textarea"
           placeholder="Add a new note..."
           ref="newNoteRef"
-        ></textarea>
+        />
       </div>
     </div>
     <div class="field is-grouped is-grouped-right">
@@ -16,5 +17,14 @@
     </div>
   </div>
 </template>
+<script setup>
+/* props */
 
+const props = defineProps({
+  modelValue: {
+    type: String,
+    required: true,
+  },
+});
+</script>
 <style></style>

@@ -1,6 +1,6 @@
 <template>
   <div class="notes">
-    <AddEditNote>
+    <AddEditNote v-model="newNote">
       <template #buttons>
         <button
           @click="addNote"
@@ -11,7 +11,7 @@
         </button>
       </template>
     </AddEditNote>
-    <div class="div card has-background-succes p-4 mb-4">
+    <!--<div class="div card has-background-succes p-4 mb-4">
       <div class="field">
         <div class="control">
           <textarea
@@ -33,9 +33,10 @@
           </button>
         </div>
       </div>
-      <Note v-for="note in storeNotes.notes" :key="note.id" :note="note" />
-    </div>
+      
+    </div>-->
   </div>
+  <Note v-for="note in storeNotes.notes" :key="note.id" :note="note" />
 </template>
 <script setup>
 /* imports */

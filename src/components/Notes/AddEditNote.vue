@@ -30,5 +30,13 @@ const props = defineProps({
 
 /* emits */
 const emit = defineEmits(["update:modelValue"]);
+
+/* focus textarea*/
+const focusTextarea = () => {
+  console.log("focusTextarea");
+};
+defineExpose({
+  focusTextarea,
+});
 </script>
 <style></style>

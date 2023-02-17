@@ -1,5 +1,6 @@
+<!-- eslint-disable vue/no-mutating-props -->
 <template>
-  <div class="div card has-background-succes p-4 mb-4">
+  <div class="div card p-4 mb-4" :class="'has-background-${ bgColor }-dark'">
     <div class="field">
       <div class="control">
         <textarea
@@ -27,6 +28,10 @@ const props = defineProps({
   modelValue: {
     type: String,
     required: true,
+  },
+  bgColor: {
+    type: String,
+    default: "succsess",
   },
 });
 

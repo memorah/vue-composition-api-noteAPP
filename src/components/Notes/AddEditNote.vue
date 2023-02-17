@@ -10,7 +10,7 @@
           v-model="modelValue"
           @input="$emit('update:modelValue', modelValue)"
           class="textarea"
-          placeholder="Add a new note..."
+          :placeholder="props.placeholder"
           ref="textareaRef"
         />
       </div>
@@ -34,7 +34,11 @@ const props = defineProps({
   },
   bgColor: {
     type: String,
-    default: "succsess",
+    default: "success",
+  },
+  placeholder: {
+    type: String,
+    default: "Type somethnig...",
   },
 });
 

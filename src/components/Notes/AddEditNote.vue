@@ -4,6 +4,7 @@
     class="div card p-4 mb-4"
     :class="`has-background-${props.bgColor}-dark`"
   >
+    <label v-if="props.label" class="label has-text-white">{{ label }}</label>
     <div class="field">
       <div class="control">
         <textarea
@@ -39,6 +40,9 @@ const props = defineProps({
   placeholder: {
     type: String,
     default: "Type somethnig...",
+  },
+  label: {
+    type: String,
   },
 });
 

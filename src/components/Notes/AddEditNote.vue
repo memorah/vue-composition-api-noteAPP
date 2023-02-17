@@ -1,6 +1,9 @@
 <!-- eslint-disable vue/no-mutating-props -->
 <template>
-  <div class="div card p-4 mb-4" :class="'has-background-${ bgColor }-dark'">
+  <div
+    class="div card p-4 mb-4"
+    :class="`has-background-${props.bgColor}-dark`"
+  >
     <div class="field">
       <div class="control">
         <textarea

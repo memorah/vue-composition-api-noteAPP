@@ -15,7 +15,7 @@
           class="button is-link has-background-grey"
           :disabled="!noteContent"
         >
-          Save Note
+          Save Notes
         </button>
       </template>
     </AddEditNote>

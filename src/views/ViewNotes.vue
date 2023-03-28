@@ -11,7 +11,7 @@
           :disabled="!newNote"
           class="button is-link has-background-success"
         >
-          Add Note
+          Add Notes
         </button>
       </template>
     </AddEditNote>
